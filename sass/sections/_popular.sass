@@ -1,0 +1,43 @@
+.popular
+    &-row
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        margin-top: 4rem
+    &__cart
+        flex-basis: 25%
+        position: relative
+        &:hover 
+            .actions-links
+                opacity: 1
+    &-links
+        position: absolute
+        left: 45%
+        bottom: 35%
+    &-ikon
+        padding: 1rem 
+        padding-bottom: 0.8rem
+
+
+.features
+    &-row
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &-block
+        flex-basis: 20%
+        text-align: center
+        border: 1px solid #ebeef0
+        
+        margin: 7.3rem 0
+        padding: 1.86rem 0
+
+        min-width: 17.5rem
+    &__title
+        +Medium
+        font-size: 1rem
+        text-transform: uppercase
+    &__subtitle
+        color: #888888
+        font-size: 0.93rem
+        letter-spacing: 0.35px

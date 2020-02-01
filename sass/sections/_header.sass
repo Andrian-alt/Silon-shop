@@ -1,0 +1,26 @@
+.header
+    padding: 1.8rem 0
+    &-wrap
+        display: flex
+        align-items: center
+        justify-content: space-between
+.nav
+    &__list
+       display: flex
+       list-style-type: none
+    &__item
+        +Medium
+        padding-left: 1.5rem
+        cursor: pointer
+
+        transition: color .2s linear
+        &:hover
+            color: red
+.info
+    &-link
+        color: #000000
+        text-decoration: none
+        margin-left: 2.2rem
+        transition: color .2s linear
+        &:hover
+            color: red
